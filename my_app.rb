@@ -30,13 +30,16 @@ __END__
 
 %center
   GOALS:
-  %ul
-    %li
-      Run a marathon pain free and in SHAPE
-    %li
-      Be financially stable
-    %li
-      Strength and skill
+  %table
+    %tr
+      %td
+        %ul
+          %li
+            Run a marathon pain free and in SHAPE
+          %li
+            Be financially stable
+          %li
+            Strength and skill
 
 
 @@ page
