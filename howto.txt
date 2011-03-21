@@ -1,0 +1,3 @@
+> howto start this:
+  
+  thin -R config.ru start

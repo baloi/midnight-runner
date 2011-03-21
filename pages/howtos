@@ -1,0 +1,53 @@
+
+<a href="/">index</a>
+<hr />
+<ul><b>Installing Tokyo Cabinet for database:</b>
+<li>prepare libraries with: $sudo apt-get install libbz2-dev</li>
+<li>download tokyocabinet, configure, make, make install</li>
+<li>download tokyocabinet-ruby http://fallabs.com/tokyocabinet/rubypkg/</li>
+<li>go into tokyocabinet-ruby folder then "$ruby extconf.rb", make, make install</li>
+</ul>
+
+
+<hr />
+<ul><b>Working with file paths:</b>
+<li>require File.expand_path(File.dirname(__FILE__)) + '/../calendar'</li>
+</ul>
+<hr />
+
+<ul><b>Using rspec commandline:</b>
+<li>spec -c -f specdoc spec/*spec.rb</li>
+</ul>
+<hr />
+
+<ul><b>Making my app work in heroku</b>
+<li> uninstalled rubygems </li>
+<li> installed newer version of rubygems</li>
+<li> installed heroku gem </li>
+<li> installed git-core</li>
+<li> installed others which I specifically needed: thin, shotgun, haml, jadof</li>
+<li> created heroku account </li>
+<li> added list of gems to .gems file</li>
+<li> made ssh key (with passphrase), if copied ssh key then made permissions correct</li>
+<li> created 'config.ru' to require '[my_app.rb]' and run Sinatra::Application</li>
+<li> tested app locally with "thin -R config.ru start"</li>
+<li> git add (files) </li>
+<li> git commit -m "my message"</li>
+<li> heroku create</li>
+<li> git push heroku master</li>
+</ul>
+
+<hr />
+
+<ul><b>Working with inline templates in ruby</b>
+
+<li> put "__END__" after code to start template part</li>
+<li> at the end of "get '/something' do" block, add "haml :page_name"</li>
+<li> start page with "@@ page_name"</li>
+<li> all instance variables in codeblock "@var" are available in template which is called by codeblock -- @var is available in "@@ page_name" called by "haml :page_name"</li>
+<li> @page.to_html</li>
+<li> hrefs (take note of spaces and no space with }= ...
+      %a{ :href => "/#{ page.to_param }" }= page
+</li>
+
+</ul>

@@ -1,0 +1,69 @@
+
+<a href="/">index</a>
+<br />
+<br />
+
+7:50 pm, September 29, 2010 (Wednesday)
+<p/> I've done a bit of refactoring on my code already and added more tests/specs. Apparently, my desire to "code fast" made me write specs only for the "main" classes and not the helper functions and classes. Wrong bet! 
+<p/> When I wanted to create a different way of calculating (through a date range instead of a whole month's budget), I ran into problems. Without much documentation of my functions, another bad mistake, I did was not sure how the helper functions worked. Even parameters were a bit vauge and it hasn't been two months into coding yet. 
+<p/>Talk about bad coding / coding practices.
+<p/>Refactoring, reviewing and making specs for the helper methods and classes was not to easy and bugs were found. I had to refactor to be able to use them with the new calculating theme.
+<p/>Rspec made it easier, but sometimes I would run into a bug or bugs that  would eat up my allocated coding time for the day. Working on business logic stopped for a few days to clean up the code. But thank God for Ruby and Rspec.
+<p/>Lesson for the MONTH: Write tests first, even for the seemingly trivial methods.
+<hr />
+
+
+9:10 pm, September 13, 2010 (Monday)
+<p/> Better source browsing with Vim = use ctags and Tlist 
+<p/> CTAGS
+<ul>
+  <li>install exuberant-ctags</li>
+  <li>go to ruby source like (/usr/lib/ruby/1.8/ or whatever yours is)</li>
+  <li><b>$ ctags -R </b> # this produces 'tags' file </li>
+  <li>in vimrc: set tags=/usr/lib/ruby/1.8/tags</li>
+  <li>create tags from gems source (/usr/lib/ruby/gems/1.8/gems/)</li>
+  <li>add this tag in vimrc: set tags+=/usr/lib/ruby/gems/1.8/gems/tags</li>
+</ul> 
+
+<p/> TLIST: use Tlist, TlistOpen, TlistClose and enjoy!
+  <ul>
+    <li>from vim use <b>:Tlist</b>, <b>TlistOpen</b>, <b>TlistClose</b> and enjoy!</li>
+  </ul>
+<hr />
+
+
+10:05 pm, September 8, 2010 (Wednesday)
+<p/> going for my 4,000 pushups by December 30, 2010
+<p/> incorporating kettle swings/snatches, kettlebell presses and pullups
+<hr />
+
+10:13 pm, September 5, 2010 (Sunday)
+<p/> Coded for 2 hours and now BudgetCalendar::get_month method now works!!
+<p/> It now can return a BudgetMonth with  :filled_days (Day objects with Items), & :entry_dates (an array of dates that have entries).
+<p/> Code: <a href="calendar">calendar</a>
+<p/> Just do: <br/>
+<p/>
+bc = BudgetCalendar.new <br/>
+budget_month = bc.get_month(yyyy, mm)
+
+<hr />
+2:45 am, September 5, 2010 (Sunday)
+<p/>I have been coding, watching TV, kettlebelling since 8 pm. Was able to spend time with kids and cook for them before that. Julia and I also had a "midnight snack" at about 1:30 am. 
+<p/>Life has been good.
+<p/>Yesterday they were also very happy when I bought them new clothes for school.
+<p/>Seeing them happy - life is really good. Thank you Lord.
+
+<hr />
+I need to find an alternative workout to running as my heel is acting up again. 
+
+<p/>Kettlebells might work. Simple, no maintenance and something I can do everyday.
+<p/>Pushups(wrestlers, standard, diamond) daily  and other bodyweight exercises like burpees, jump squat, split squat.
+
+<hr />
+The free stuff.
+<p/>SVN plus Git-Heroku rocks. I use heroku to host my pages and apps, but still have trouble getting my environment to work on other computers. My free membership allows only one app to be bundled and when I download the bundle it doesn't seem to work when I do: "$ git push heroku master". 
+<p/>So what I did was to upload all sources to my subversion repo via my free unfuddle account, checked out sources to my other laptop, worked on it and just committed it from there (no physical copying of files via usb thumbdrive). Then I updated my sources in my main workstation and pushed it to heroku from there. Neat and free!!
+<hr />
+I still think that my wife uses Facebook too much, but she thinks I use the computer too much even though it is programming. We have to learn to accomodate each other though.
+<hr />
+A hot September day... Just cleaned the pool. Too dusty out. Julia is watering the plants. Need to work out more. Need to fix ankle. Need to balance budget... Blog entry 9/3/2010
