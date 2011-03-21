@@ -33,3 +33,12 @@ __END__
 %h1= @page
 
 = @page.to_html
+
+GOALS:
+%ul
+  %li
+    Run a marathon pain free and in SHAPE
+  %li
+    Be financially stable
+  %li
+    Strength and skill
