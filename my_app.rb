@@ -28,12 +28,6 @@ __END__
     %li
       %a{ :href => "/#{ page.to_param }" }= page
 
-@@ page
-
-%h1= @page
-
-= @page.to_html
-
 GOALS:
 %ul
   %li
@@ -42,3 +36,12 @@ GOALS:
     Be financially stable
   %li
     Strength and skill
+
+
+@@ page
+
+%h1= @page
+
+= @page.to_html
+
+
