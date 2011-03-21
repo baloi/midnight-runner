@@ -40,7 +40,8 @@ __END__
             Be financially stable
           %li
             Strength and skill
-
+          %li
+            Train and nurture the kids
 
 @@ page
 
