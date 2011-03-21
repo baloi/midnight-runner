@@ -28,14 +28,15 @@ __END__
     %li
       %a{ :href => "/#{ page.to_param }" }= page
 
-GOALS:
-%ul
-  %li
-    Run a marathon pain free and in SHAPE
-  %li
-    Be financially stable
-  %li
-    Strength and skill
+%center
+  GOALS:
+  %ul
+    %li
+      Run a marathon pain free and in SHAPE
+    %li
+      Be financially stable
+    %li
+      Strength and skill
 
 
 @@ page
