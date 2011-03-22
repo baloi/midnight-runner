@@ -1,12 +1,180 @@
+<h1>blog</h1>
+<a href="/">index</a><br />
+<a href="/ramblings">ramblings</a><br />
+<a href="/howtos">howtos</a><br />
+<a href="/bodylog">bodylog</a><br />
+<br />
+<br />
 
-<a href="/">index</a>
+<!-- a typical list 
+#######################
+<ul>
+<li></li>
+<li></li>
+</ul>
+#######################
+-->
+
+
+<!-- a typical template
+#######################
+date
+<p/>
+content
 <br />
+<hr />
+#######################
+-->
+
+Thu Feb  3 22:13:59 EST 2011
+<p/>
+Rest day today. The "Slow Burn" idea is hovering in my mind. Just think, running 40 k is just like running 1 k 40 times. Hmmmm. Pacing yourself not just for one workout but in the big picture might just be the key... 
+
+<p/>
+How about writing? Maybe the "Slow Burn", going indefinitely and not burning out.
+
+<p/>
+Coding. A bit at a time. Maybe trying not to drown myself within 30 minutes of a coding session. Just catch the flow and go with it.
+
+<p/> 
+Constance could be the key to a lot of things. Innovation, creative surges could appear to those who are ready. 
+
+<p/>
+How can a code a masterpiece if I am not coding at all? How can I sharpen my skill, gain strength if I am not training continuously?
+
+<p/>
+Continuous at a doable speed. Not at burnout speed. Build it up gradually. Listen to your body, go by feel.
+
 <br />
+<hr />
+
+Tue Feb  1 22:14:31 EST 2011
+
+<p/>
+The Merrel Trail Glove is now available even on amazon. I want to try out Merrell's barefoot shoes or any other shoe before I buy it to get the correct size for me. 
+<p/>
+Found a 3 step way to massage the foot muscles in the internet. Starts with rolling the foot on a cylindrical object, then crossfiber massage with a tennis ball and finishing with using the tennis ball for pressure on "trigger points" for 3-5 minutes. Did it tonight and I will see how it will be first thing in the morning. This is after running outside in the snow intermittently for about 10 minutes. Finished up with icing.
+
+<p/>
+The VFF KSO Trek's are now fitting better. The toes are still the tightest areas but it is not too bad now. Donning the shoe is also easier now. Currently using EU 38's.
+<br />
+<hr />
+
+
+Sun Jan 30 09:39:37 EST 2011
+
+<p/>
+Notes on minimal footwear:
+
+<p/>
+The New Balance Minimus and Merrel Trail Glove, both of which I have been waiting for are now out. From the reviews, especially from barefootrunninguniversity.com, it seems that the Trail Glove has a bit of an edge in two departments. The Trail Glove has zero heel drop as compared to NB Minimus with a slight heel and the trail glove is supposed to have better traction.
+
+
+<p/>
+I currently have two minimal shoes - Vibram KSO Treks (38 EU) and the Puma Street Kosmos (7.5 US, 7 US is too small) which is supposed to replace its discontinued minimalist retro running shoe, the H Streets. The KSO's have zero heel drop and the Puma has a slight heel. I only run in the KSO's as I did not have a good experience running with the Pumas, but I cannot wear the KSO's to work. 
+
+<p/>
+The Puma's absence of arch support, lightweight construction and only a very slight heel though still makes it a good minimalist shoe under $60. The only thing with the Puma is I cannot wear it with socks comfortably so I have to use my Clarke's Un.Bend shoe minus custom arch support. Half day minimalist is better than none. Hopefully I can wean off this in a couple of months - just in time for the purchase of permanent minimal shoes.
+
+<p/>
+My heel pain has definitely diminished. Mornings are now either pain free or has minimal pain. I'm doing morning runs daily after strength training as a warmup, Egocosque exercises (3-4 times per week), icing (2 times daily), plantar stretches daily and calf raises. Last week I was only able to run half of the YMCA track 3-4 times alternating with walking. Yesterday I did 1 round run + walk twice on KSO's and a 2 round run with walk listening to Anton Kupricka's choice of music for tempo and inspiration. It felt great! I finished with barefoot running across the hallway 3 times at different intervals and that was the best feeling ever!!
+
+<p/>Today pain is minimal on heel, absent on calves even with yesterday's workout.
+
+<p/>
+I'm still looking for minimalist work shoes like the Merrell Tough Glove which have not yet been released - maybe I will settle for the Patagonia Honeydew. I'll keep running on the snug KSO's which might expand a little and also barefoot.
+
+<br />
+<hr />
+
+
+
+Sat Dec 25 10:43:42 EST 2010
+<p/>
+Now I've identified what can make me focus on programming, blogging and studying - MUSIC. Got to have a setup now.... Invest in earbuds and if there is enough on the budget, cool keyboard, laptop/desktop with CD-DVD and cool OS(Linux or Mac). Got to have these.
+
+<br />
+<hr />
+
+Thu Nov 25 22:36:45 EST 2010
+<p/>
+Finally the specs are running without any errors. Had problems with a bug. Wasted about one week. Too tired to code. Need to be more focused on goals. No more IPod to help concentrate. ?Music helps.
+<p/>Current code status about 50%. Plan to show working scheduler program this week... Survival... 
+<br />
+<hr />
+
+Fri Nov 19 06:10:20 EST 2010
+<p/>
+Setting goals and early morning rituals will work. Also writing 5 goals the night before is very helpful to get me guided.
+<p/>The "single paper guide" will focus energies and guide life plans.
+<br />
+<hr />
+
+2:40 am, November 13, 2010 (Saturday)
+<p/>
+Time to sleep. Now I've finally started with the tests for calculating schedule conflicts for SchedCheck.
+<br />
+<hr />
+
+9:00 pm, November 12, 2010 (Friday)
+<p/>
+Now successfully installed heroku, webrat, rspec and all goodies to my "main" work computer. Ruby openssl problems and the like solved by compiling ruby and other libraries. Now I love the configure-make-make install cycle! Whoa!
+
+<br />
+<hr />
+8:55 am, October 31, 2010 (Sunday)
+<p/>
+Continued working on scheduler project which is as expected creating gotchas along the way. 
+<p/>
+Solved the creation of tags through ruby functions called in haml templates. Instead of using haml, I just generated regular html tags within the function so I would not worry about indentation and stuff. Instead of using "-" or "=", I used "!=" to prefix the function call to enable the generated html to be parsed as such.
+
+<p/>
+With html element generation out of the way, comes another gotcha. How do I insert resident schedules (to make calculation of resident minutes for the day to do and done) into my data model? How about therapist caseloads and how much was done? Another monkey in the wrench...
+<br />
+<hr />
+
+10:40 pm, October 27, 2010 (Wednesday)
+<p/> RVM just rocks!
+<p/> After all the headache of installing, configuring, getting gems to work, database and ruby, among other stuff in my laptop, I am now converted. RVM is the way to go.
+<p/> On a 10-year-old PC I bought from a garage sale at $30 with knoppix running  this was the only one that worked. I tried compiling ruby from source and also installing ruby via apt-get - both of which just caused headaches and a few days trying to tweak and read forums and tips from the web.
+<p/> On my laptop, it took less than 20 minutes(including ruby compile) to install rvm, a ruby version in rvm, rspec, sinatra, datamapper, dm-sqlite-adapter, and all the nice gems I needed.
+<p/> The install was not a difficult process (I installed rvm and ruby as a non-root user), a one-liner install command at http://rvm.beginrescueend.com/rvm/install. Then I just had to add something in my .bashrc. Read "Troubleshooting your Install" on the same page. My setup is knoppix and ubuntu so I had to just do a very little modification in my .bashrc which was not really difficult to do.
+<p/> I had not tried rvm before because I thought that I had to do a lot of tweaking of my linux setup BUT I WAS WRONG. It was much easier than trying to track down missing libraries, compiling, re-compiling, reading forums for tips, errors, errors, errors.....
+
+<p/> At the moment I will stick to this setup and do less installing, pulling my hair from installation issues and finally more time for CODING!!!
+<p/> Keep on hacking!   
+
+<hr />
+
+
+12:14 pm, October 2, 2010 (Saturday)
+<p/>
+Googled for insoles last night and found SuperFeet available in our local Steiner's Sports shop. 
+
+<p/>
+My feet have been feeling better now and usually there is no more heel pain when I wake up. Hamstring, plantarflexor and plantar fascia rotational stretches plus strengthening for plantar flexors and toe flexors have definitely helped. It's just at the end of the day, especially a long day like yesterday (8 am - 6:30 pm on my feet) that I feel it bothering me.
+<p/>
+So after the kids' soccer games I went to Steiner's and purchased the blue insoles.
+<p/>
+<b>Another refactoring</b>
+
+<p/>
+Divided the monolithic budget calendar file and specs into calendar/date related and budget related areas. Took 10 minutes, maybe a good sign... 
+<p/>
+Will tackle spec refactoring and adding specs to all methods. Maybe even try using mocks and stubs this time around.
+
+
+<hr />
+
+9:25 pm, September 30, 2010 (Thursday)
+<p/> I will have to focus on cleaning tests and add tests to all untested methods of the program. Smaller units for tests, refactoring methods and just simply following the DRY (don't repeat yourself) principle. 
+<hr />
 
 7:50 pm, September 29, 2010 (Wednesday)
 <p/> I've done a bit of refactoring on my code already and added more tests/specs. Apparently, my desire to "code fast" made me write specs only for the "main" classes and not the helper functions and classes. Wrong bet! 
-<p/> When I wanted to create a different way of calculating (through a date range instead of a whole month's budget), I ran into problems. Without much documentation of my functions, another bad mistake, I did was not sure how the helper functions worked. Even parameters were a bit vauge and it hasn't been two months into coding yet. 
+<p/> When I wanted to create a different way of calculating (through a date range instead of a whole month's budget), I ran into problems. Without much documentation of my functions, another bad mistake, I was not sure how the helper functions worked. Even parameters were a bit vague and it hasn't been two months into coding yet. 
 <p/>Talk about bad coding / coding practices.
+
 <p/>Refactoring, reviewing and making specs for the helper methods and classes was not to easy and bugs were found. I had to refactor to be able to use them with the new calculating theme.
 <p/>Rspec made it easier, but sometimes I would run into a bug or bugs that  would eat up my allocated coding time for the day. Working on business logic stopped for a few days to clean up the code. But thank God for Ruby and Rspec.
 <p/>Lesson for the MONTH: Write tests first, even for the seemingly trivial methods.
@@ -19,6 +187,7 @@
 <ul>
   <li>install exuberant-ctags</li>
   <li>go to ruby source like (/usr/lib/ruby/1.8/ or whatever yours is)</li>
+
   <li><b>$ ctags -R </b> # this produces 'tags' file </li>
   <li>in vimrc: set tags=/usr/lib/ruby/1.8/tags</li>
   <li>create tags from gems source (/usr/lib/ruby/gems/1.8/gems/)</li>
@@ -27,6 +196,7 @@
 
 <p/> TLIST: use Tlist, TlistOpen, TlistClose and enjoy!
   <ul>
+
     <li>from vim use <b>:Tlist</b>, <b>TlistOpen</b>, <b>TlistClose</b> and enjoy!</li>
   </ul>
 <hr />
@@ -34,6 +204,7 @@
 
 10:05 pm, September 8, 2010 (Wednesday)
 <p/> going for my 4,000 pushups by December 30, 2010
+
 <p/> incorporating kettle swings/snatches, kettlebell presses and pullups
 <hr />
 
@@ -42,6 +213,7 @@
 <p/> It now can return a BudgetMonth with  :filled_days (Day objects with Items), & :entry_dates (an array of dates that have entries).
 <p/> Code: <a href="calendar">calendar</a>
 <p/> Just do: <br/>
+
 <p/>
 bc = BudgetCalendar.new <br/>
 budget_month = bc.get_month(yyyy, mm)
@@ -62,6 +234,7 @@ I need to find an alternative workout to running as my heel is acting up again.
 <hr />
 The free stuff.
 <p/>SVN plus Git-Heroku rocks. I use heroku to host my pages and apps, but still have trouble getting my environment to work on other computers. My free membership allows only one app to be bundled and when I download the bundle it doesn't seem to work when I do: "$ git push heroku master". 
+
 <p/>So what I did was to upload all sources to my subversion repo via my free unfuddle account, checked out sources to my other laptop, worked on it and just committed it from there (no physical copying of files via usb thumbdrive). Then I updated my sources in my main workstation and pushed it to heroku from there. Neat and free!!
 <hr />
 I still think that my wife uses Facebook too much, but she thinks I use the computer too much even though it is programming. We have to learn to accomodate each other though.
