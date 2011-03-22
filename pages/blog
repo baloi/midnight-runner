@@ -1,3 +1,17 @@
+<html>
+
+<head>
+  <style>
+  body
+  {
+    font-family: monaco, sans-serif
+    font-size: 12pt;
+  }
+  </style>
+</head>
+
+<body>
+
 <a href="/">index</a><br />
 <br />
 <br />
@@ -236,3 +250,7 @@ The free stuff.
 I still think that my wife uses Facebook too much, but she thinks I use the computer too much even though it is programming. We have to learn to accomodate each other though.
 <hr />
 A hot September day... Just cleaned the pool. Too dusty out. Julia is watering the plants. Need to work out more. Need to fix ankle. Need to balance budget... Blog entry 9/3/2010
+
+
+</body>
+</html>
