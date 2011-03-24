@@ -29,8 +29,7 @@
 <!-- a typical template
 #######################
 !!date
-title: 
-tags: 
+title: || tags:
 <p/>
 content
 <br />
@@ -39,8 +38,7 @@ content
 -->
 
 Wed Mar 23 21:16:30 EDT 2011
-title:
-tags: project refactoring
+title: || tags: project refactoring
 <p/>
 Added a method to ApplicationController to be accessible to all controllers.
 <br />
