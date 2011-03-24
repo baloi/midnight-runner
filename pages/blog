@@ -29,12 +29,24 @@
 <!-- a typical template
 #######################
 !!date
+title: 
+tags: 
 <p/>
 content
 <br />
 <hr />
+<!-- end -->
 #######################
 -->
+
+Wed Mar 23 21:16:30 EDT 2011
+title:
+tags: project refactoring
+<p/>
+Added a method to ApplicationController to be accessible to all controllers.
+<br />
+<hr />
+<!-- end -->
 
 Wed Mar 23 21:06:02 EDT 2011
 <p/>
@@ -45,6 +57,7 @@ Maybe I did not feel the difference before because I had too much pain at that t
 <hr />
 
 
+<!-- end -->
 Tue Mar 22 18:43:24 EDT 2011
 <p/>
 Maybe a bit too much too soon. Ran up to the sixth floor twice after a morning workout of 5 getups plus kettlebell snatches and basically was running around up and down 1st to 2nd floor in the morning a few times.
@@ -54,7 +67,7 @@ Wore the Clarkes in the pm to rest the arches, but I can feel it already. Oh wel
 
 <br />
 <hr />
-
+<!-- end -->
 
 Mon Mar 21 23:27:09 EDT 2011
 <p/>
@@ -64,6 +77,7 @@ Sprint training 5-10 sec x 5 rounds on Pace Gloves yesterday at the back of the 
 
 <br />
 <hr />
+<!-- end -->
 
 
 Mon Mar 21 22:57:01 EDT 2011
@@ -87,6 +101,7 @@ Merrell Barefoot Pace Glove vs New Balance Minimus Trail
 
 <br />
 <hr />
+<!-- end -->
 
 
 Thu Feb  3 22:13:59 EST 2011
@@ -110,6 +125,7 @@ Continuous at a doable speed. Not at burnout speed. Build it up gradually. Liste
 
 <br />
 <hr />
+<!-- end -->
 
 Tue Feb  1 22:14:31 EST 2011
 
@@ -122,6 +138,7 @@ Found a 3 step way to massage the foot muscles in the internet. Starts with roll
 The VFF KSO Trek's are now fitting better. The toes are still the tightest areas but it is not too bad now. Donning the shoe is also easier now. Currently using EU 38's.
 <br />
 <hr />
+<!-- end -->
 
 
 Sun Jan 30 09:39:37 EST 2011
@@ -149,6 +166,7 @@ I'm still looking for minimalist work shoes like the Merrell Tough Glove which h
 
 <br />
 <hr />
+<!-- end -->
 
 
 
@@ -158,6 +176,7 @@ Now I've identified what can make me focus on programming, blogging and studying
 
 <br />
 <hr />
+<!-- end -->
 
 Thu Nov 25 22:36:45 EST 2010
 <p/>
@@ -165,6 +184,7 @@ Finally the specs are running without any errors. Had problems with a bug. Waste
 <p/>Current code status about 50%. Plan to show working scheduler program this week... Survival... 
 <br />
 <hr />
+<!-- end -->
 
 Fri Nov 19 06:10:20 EST 2010
 <p/>
@@ -172,12 +192,14 @@ Setting goals and early morning rituals will work. Also writing 5 goals the nigh
 <p/>The "single paper guide" will focus energies and guide life plans.
 <br />
 <hr />
+<!-- end -->
 
 2:40 am, November 13, 2010 (Saturday)
 <p/>
 Time to sleep. Now I've finally started with the tests for calculating schedule conflicts for SchedCheck.
 <br />
 <hr />
+<!-- end -->
 
 9:00 pm, November 12, 2010 (Friday)
 <p/>
@@ -208,6 +230,7 @@ With html element generation out of the way, comes another gotcha. How do I inse
 <p/> Keep on hacking!   
 
 <hr />
+<!-- end -->
 
 
 12:14 pm, October 2, 2010 (Saturday)
@@ -228,10 +251,12 @@ Will tackle spec refactoring and adding specs to all methods. Maybe even try usi
 
 
 <hr />
+<!-- end -->
 
 9:25 pm, September 30, 2010 (Thursday)
 <p/> I will have to focus on cleaning tests and add tests to all untested methods of the program. Smaller units for tests, refactoring methods and just simply following the DRY (don't repeat yourself) principle. 
 <hr />
+<!-- end -->
 
 7:50 pm, September 29, 2010 (Wednesday)
 <p/> I've done a bit of refactoring on my code already and added more tests/specs. Apparently, my desire to "code fast" made me write specs only for the "main" classes and not the helper functions and classes. Wrong bet! 
@@ -242,6 +267,7 @@ Will tackle spec refactoring and adding specs to all methods. Maybe even try usi
 <p/>Rspec made it easier, but sometimes I would run into a bug or bugs that  would eat up my allocated coding time for the day. Working on business logic stopped for a few days to clean up the code. But thank God for Ruby and Rspec.
 <p/>Lesson for the MONTH: Write tests first, even for the seemingly trivial methods.
 <hr />
+<!-- end -->
 
 
 9:10 pm, September 13, 2010 (Monday)
@@ -263,6 +289,7 @@ Will tackle spec refactoring and adding specs to all methods. Maybe even try usi
     <li>from vim use <b>:Tlist</b>, <b>TlistOpen</b>, <b>TlistClose</b> and enjoy!</li>
   </ul>
 <hr />
+<!-- end -->
 
 
 10:05 pm, September 8, 2010 (Wednesday)
@@ -282,6 +309,9 @@ bc = BudgetCalendar.new <br/>
 budget_month = bc.get_month(yyyy, mm)
 
 <hr />
+<!-- end -->
+
+
 2:45 am, September 5, 2010 (Sunday)
 <p/>I have been coding, watching TV, kettlebelling since 8 pm. Was able to spend time with kids and cook for them before that. Julia and I also had a "midnight snack" at about 1:30 am. 
 <p/>Life has been good.
