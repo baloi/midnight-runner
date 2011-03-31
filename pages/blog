@@ -37,6 +37,14 @@ content
 #######################
 -->
 
+Wed Mar 30 21:49:29 EDT 2011
+title: checking out from git || tags: howto
+<p/>
+$ git clone git://github.com/defunkt/hurl
+<br />
+<hr />
+
+
 Thu Mar 24 21:58:18 EDT 2011
 title: || tags: daily
 <p/>
