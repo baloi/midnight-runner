@@ -40,7 +40,7 @@ content
 Wed Mar 30 21:49:29 EDT 2011
 title: checking out from git || tags: howto
 <p/>
-$ git clone git://github.com/defunkt/hurl
+$ git clone git://github.com/railsrumble/rr10-team-2
 <br />
 <hr />
 
