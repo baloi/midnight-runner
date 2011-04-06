@@ -37,6 +37,30 @@ content
 #######################
 -->
 
+Tue Apr  5 20:06:25 EDT 2011
+title: How I installed RVM || tags: rvm ruby hacks
+<p/>
+$ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+<br />
+Then edit ~/.profile at the and to add this:
+[[ -s "/Users/baloi/.rvm/scripts/rvm" ]] && source "/Users/baloi/.rvm/scripts/rvm"
+<br />
+Check installation
+$ type rvm | head -1
+<br />
+Should return:
+rvm is a function
+<br />
+$ rvm list known
+$ rvm install ruby-xxxxx-xx
+$ rvm use ruby-xxxxx-xx
+<br />
+To go back:
+$ rvm default
+<hr />
+
+
+
 Wed Mar 30 21:49:29 EDT 2011
 title: checking out from git || tags: howto
 <p/>
