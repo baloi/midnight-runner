@@ -45,70 +45,75 @@ This is how I did my database migration for rails 1.2.6
 <br />
 <code>
 001_create_caseloads.rb:
-
-class CreateCaseloads < ActiveRecord::Migration
-  def self.up
-    create_table :caseloads do |t|
-      t.column :therapist_id, :integer
-      t.column :rehab_day_id, :integer
-    end
-  end
-
-  def self.down
-    drop_table :caseloads
-  end
-end
+<font face="monospace">
+<font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">CreateCaseloads</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">create_table</font>&nbsp;<font color="#ff6060">:caseloads</font>&nbsp;<font color="#ffff00">do</font>&nbsp;|<font color="#00ffff">t</font>|<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.column <font color="#ff6060">:therapist_id</font>, <font color="#ff6060">:integer</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.column <font color="#ff6060">:rehab_day_id</font>, <font color="#ff6060">:integer</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ffff00">end</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">down</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">drop_table</font>&nbsp;<font color="#ff6060">:caseloads</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<font color="#ff40ff">end</font><br>
+</font>
 
 002_remove_therapist_from_sessions.db:
-class RemoveTherapistFromSessions < ActiveRecord::Migration
-  def self.up
-    #change_table :sessions do |t|
-    #  t.remove_index :index_sessions_therapist
-    #  t.remove_column :therapist_id
-    #end
-
-    #remove_index :sessions, :therapist
-    #  DROP INDEX index_sessions_therapist ON "sessions"
-    execute <<-SQL
-      DROP INDEX index_sessions_therapist
-    SQL
-
-    remove_column :sessions, :therapist_id
-  end
-
-  def self.down
-    #change_table :sessions do |t|
-    #  t.add_column :therapist_id, :integer
-    #  t.add_index :index_sessions_therapist
-    #end
-
-    add_column :sessions, :therapist_id, :integer
-    #add_index :sessions, :therapist
-    execute <<-SQL
-      CREATE INDEX index_sessions_therapist ON sessions ("therapist_id")
-    SQL
-  end
-end
+<font face="monospace">
+<font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">RemoveTherapistFromSessions</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#change_table :sessions do |t|</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#&nbsp;&nbsp;t.remove_index :index_sessions_therapist</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#&nbsp;&nbsp;t.remove_column :therapist_id</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#end</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#remove_index :sessions, :therapist</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#&nbsp;&nbsp;DROP INDEX index_sessions_therapist ON &quot;sessions&quot;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">execute</font>&nbsp;&lt;&lt;-<font color="#ff40ff">SQL</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DROP INDEX index_sessions_therapist</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#ff40ff">SQL</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">remove_column</font>&nbsp;<font color="#ff6060">:sessions</font>, <font color="#ff6060">:therapist_id</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">down</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#change_table :sessions do |t|</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#&nbsp;&nbsp;t.add_column :therapist_id, :integer</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#&nbsp;&nbsp;t.add_index :index_sessions_therapist</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#end</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">add_column</font>&nbsp;<font color="#ff6060">:sessions</font>, <font color="#ff6060">:therapist_id</font>, <font color="#ff6060">:integer</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#add_index :sessions, :therapist</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">execute</font>&nbsp;&lt;&lt;-<font color="#ff40ff">SQL</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATE INDEX index_sessions_therapist ON sessions (&quot;therapist_id&quot;)</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#ff40ff">SQL</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<font color="#ff40ff">end</font><br>
+</font>
 
 003_remove_rehab_day_from_sessions.rb:
-class RemoveRehabDayFromSessions < ActiveRecord::Migration
-  def self.up
-    execute <<-SQL
-      DROP INDEX index_sessions_rehab_day
-    SQL
+<font face="monospace">
+<font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">RemoveRehabDayFromSessions</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">execute</font>&nbsp;&lt;&lt;-<font color="#ff40ff">SQL</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DROP INDEX index_sessions_rehab_day</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#ff40ff">SQL</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">remove_column</font>&nbsp;<font color="#ff6060">:sessions</font>, <font color="#ff6060">:rehab_day_id</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<br>
+&nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">down</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">add_column</font>&nbsp;<font color="#ff6060">:sessions</font>, <font color="#ff6060">:rehab_day_id</font>, <font color="#ff6060">:integer</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#8080ff">#add_index :sessions, :therapist</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00ffff">execute</font>&nbsp;&lt;&lt;-<font color="#ff40ff">SQL</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATE INDEX index_sessions_rehab_day ON sessions (&quot;rehab_day_id&quot;)</font><br>
+<font color="#ff6060">&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#ff40ff">SQL</font><br>
+&nbsp;&nbsp;<font color="#ff40ff">end</font><br>
+<font color="#ff40ff">end</font><br>
+</font>
 
-    remove_column :sessions, :rehab_day_id
-  end
-
-  def self.down
-    add_column :sessions, :rehab_day_id, :integer
-    #add_index :sessions, :therapist
-    execute <<-SQL
-      CREATE INDEX index_sessions_rehab_day ON sessions ("rehab_day_id")
-    SQL
-  end
-end
-</code>
 <hr />
 
 
