@@ -37,6 +37,82 @@ content
 #######################
 -->
 
+Thu Apr 14 20:05:01 EDT 2011
+title: database migrations || tags: database programming ruby rails
+<p/>
+This is how I did my database migration for rails 1.2.6
+
+<br />
+<code>
+001_create_caseloads.rb:
+
+class CreateCaseloads < ActiveRecord::Migration
+  def self.up
+    create_table :caseloads do |t|
+      t.column :therapist_id, :integer
+      t.column :rehab_day_id, :integer
+    end
+  end
+
+  def self.down
+    drop_table :caseloads
+  end
+end
+
+002_remove_therapist_from_sessions.db:
+class RemoveTherapistFromSessions < ActiveRecord::Migration
+  def self.up
+    #change_table :sessions do |t|
+    #  t.remove_index :index_sessions_therapist
+    #  t.remove_column :therapist_id
+    #end
+
+    #remove_index :sessions, :therapist
+    #  DROP INDEX index_sessions_therapist ON "sessions"
+    execute <<-SQL
+      DROP INDEX index_sessions_therapist
+    SQL
+
+    remove_column :sessions, :therapist_id
+  end
+
+  def self.down
+    #change_table :sessions do |t|
+    #  t.add_column :therapist_id, :integer
+    #  t.add_index :index_sessions_therapist
+    #end
+
+    add_column :sessions, :therapist_id, :integer
+    #add_index :sessions, :therapist
+    execute <<-SQL
+      CREATE INDEX index_sessions_therapist ON sessions ("therapist_id")
+    SQL
+  end
+end
+
+003_remove_rehab_day_from_sessions.rb:
+class RemoveRehabDayFromSessions < ActiveRecord::Migration
+  def self.up
+    execute <<-SQL
+      DROP INDEX index_sessions_rehab_day
+    SQL
+
+    remove_column :sessions, :rehab_day_id
+  end
+
+  def self.down
+    add_column :sessions, :rehab_day_id, :integer
+    #add_index :sessions, :therapist
+    execute <<-SQL
+      CREATE INDEX index_sessions_rehab_day ON sessions ("rehab_day_id")
+    SQL
+  end
+end
+</code>
+<hr />
+
+
+
 Tue Apr  5 20:06:25 EDT 2011
 title: How I installed RVM || tags: rvm ruby hacks
 <p/>
