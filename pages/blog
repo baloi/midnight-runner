@@ -44,7 +44,7 @@ This is how I did my database migration for rails 1.2.6
 
 <br />
 <code>
-001_create_caseloads.rb:
+001_create_caseloads.rb:<br>
 <font face="monospace">
 <font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">CreateCaseloads</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
 &nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
@@ -60,7 +60,8 @@ This is how I did my database migration for rails 1.2.6
 <font color="#ff40ff">end</font><br>
 </font>
 
-002_remove_therapist_from_sessions.db:
+002_remove_therapist_from_sessions.rb: <br>
+
 <font face="monospace">
 <font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">RemoveTherapistFromSessions</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
 &nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
@@ -93,7 +94,8 @@ This is how I did my database migration for rails 1.2.6
 <font color="#ff40ff">end</font><br>
 </font>
 
-003_remove_rehab_day_from_sessions.rb:
+003_remove_rehab_day_from_sessions.rb:<br>
+
 <font face="monospace">
 <font color="#ff40ff">class</font>&nbsp;<font color="#00ff00">RemoveRehabDayFromSessions</font>&nbsp;&lt; <font color="#00ff00">ActiveRecord</font>::<font color="#00ff00">Migration</font><br>
 &nbsp;&nbsp;<font color="#ff40ff">def</font>&nbsp;<font color="#ff6060">self</font>.<font color="#00ffff">up</font><br>
