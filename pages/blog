@@ -43,6 +43,7 @@ title: database migrations || tags: database programming ruby rails
 This is how I did my database migration for rails 1.2.6
 
 <br />
+<br />
 <code>
 001_create_caseloads.rb:<br>
 <font face="monospace">
