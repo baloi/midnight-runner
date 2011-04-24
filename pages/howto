@@ -1,6 +1,6 @@
 <a href="/">index</a><br />
 <br />
-<br />
+
 <!-- a typical list 
 #######################
 <ul>
@@ -12,7 +12,6 @@
 
 <!-- a typical template
 #######################
-
 <b> title </b>
 <br />
 <code>
