@@ -1,3 +1,31 @@
-> change shell to zsh
+<a href="/">index</a><br />
+<br />
+<br />
+<!-- a typical list 
+#######################
+<ul>
+<li></li>
+<li></li>
+</ul>
+#######################
+-->
+
+<!-- a typical template
+#######################
+
+<b> title </b>
+<br />
+<code>
+  content
+</code>
+<hr />
+#######################
+-->
+
+
+<b> change shell to zsh </b>
+<br />
+<code>
 chsh -s /bin/zsh
+</code>
 
