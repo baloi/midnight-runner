@@ -35,6 +35,8 @@ __END__
       %td
         %ul
           %li
+            Build my empire
+          %li
             Run a marathon pain free and in SHAPE
           %li
             Be financially stable
