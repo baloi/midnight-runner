@@ -14,19 +14,19 @@
 #######################
 <b> title </b>
 <br />
-<code>
+<pre>
   content
-</code>
+</pre>
 <hr />
 #######################
 -->
 <b> using only one shell and vim </b>
 <br />
 <pre>
-  * from vim
-    CTRL-z # to got to shell
-  * from shell
-    fg <cr> # to go back to vim (put vim to foreground)
+* from vim
+  CTRL-z # to got to shell
+* from shell
+  fg <cr> # to go back to vim (put vim to foreground)
 </pre>
 <hr />
 
@@ -34,8 +34,8 @@
 <b> mapping in vim </b>
 <br />
 <pre>
-  * map ',t' to save and then rspec the current file
-    :map ,t :w\|!rspec % <cr>
+* map ',t' to save and then rspec the current file
+  :map ,t :w\|!rspec % <cr>
 
 </pre>
 <hr />
@@ -44,7 +44,7 @@
 <b> zsh-git integration</b>
 <br />
 <pre>
-  https://github.com/jcorbin/zsh-git
+https://github.com/jcorbin/zsh-git
 </pre>
 <hr />
 
