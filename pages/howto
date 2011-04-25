@@ -22,36 +22,36 @@
 -->
 <b> using only one shell and vim </b>
 <br />
-<code>
+<pre>
   * from vim
     CTRL-z # to got to shell
   * from shell
     fg <cr> # to go back to vim (put vim to foreground)
-</code>
+</pre>
 <hr />
 
 
 <b> mapping in vim </b>
 <br />
-<code>
+<pre>
   * map ',t' to save and then rspec the current file
     :map ,t :w\|!rspec % <cr>
 
-</code>
+</pre>
 <hr />
 
 
 <b> zsh-git integration</b>
 <br />
-<code>
+<pre>
   https://github.com/jcorbin/zsh-git
-</code>
+</pre>
 <hr />
 
 
 <b> change shell to zsh </b>
 <br />
-<code>
+<pre>
 chsh -s /bin/zsh
-</code>
+</pre>
 
