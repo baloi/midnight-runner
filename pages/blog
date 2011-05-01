@@ -40,15 +40,25 @@ content
 Sun May  1 08:52:43 EDT 2011
 title: Develop with BIGGER fonts, other tips from peepcode || tags: coding, programming
 <p/>
-  Peepcode at $12 a bang is worth it's weight in gold. From FRANCIS HWANGS's peepcode 
-  screencast, I learned to use 20 pt. or greater font size for better ergonomics.
+  Peepcode at $12 a bang is worth it's weight in gold. 
+
+  From 
+  <a href="http://peepcode.com/products/play-by-play-fhwang">
+    FRANCIS HWANGS's peepcode screencast</a>, 
+  I learned to use 20 pt. or greater font size for better ergonomics.
+
   Now I even type softer as I have better feedback of what I am typing.... Also he 
   demonstrated how he lessens development time with more planning, testing and 
   reducing test errors with his generating rails model instances with sample_model. 
   Way cool.
 
 <p/>
-  Another thing I learned is some vim tips from GARY BERNHARDT's screencast with him using
+  Another thing I learned is some vim tips 
+  
+  from 
+  <a href="http://peepcode.com/products/play-by-play-bernhardt">
+    GARY BERNHARDT's screencast</a>
+  with him using
   git-zsh with pomodoro and git contexts in your prompts which is smoking hot. I now have
   integrated git-zsh/pomodoro into my workflow(5 minute break every 25 minutes of coding).
   He also showed vim's ":map" feature and just mapping something on the fly which just
