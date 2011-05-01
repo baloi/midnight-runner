@@ -1,1 +1,2 @@
+> Delete code from blog
 > Make this work
