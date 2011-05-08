@@ -18,15 +18,10 @@
 
 <!-- a typical list 
 #######################
-Choose to programming something that you will have to use either now or everyday.
-My example:
-<p/>
 <ul>
-<li>console grading system with data entry written in python within 24 hours</li>
-<li>scheduling program now starting to be used and has been under dev for more than 6
-months at the side</li>
+  <li></li>
+  <li></li>
 </ul>
-
 #######################
 -->
 
@@ -46,11 +41,15 @@ Sun May  8 02:44:51 EDT 2011
 title: How to choose a programming project || tags: programming fulfillment
 <p/>
 Choose to programming something that you will have to use either now or everyday.
+<p/>
 My example:
 <p/>
 <ul>
-
+<li>console grading system with data entry written in python within 24 hours</li>
+<li>scheduling program now starting to be used and has been under dev for more than 6
+months at the side</li>
 </ul>
+
 <br />
 <hr />
 
