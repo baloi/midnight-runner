@@ -18,10 +18,15 @@
 
 <!-- a typical list 
 #######################
+Choose to programming something that you will have to use either now or everyday.
+My example:
+<p/>
 <ul>
-<li></li>
-<li></li>
+<li>console grading system with data entry written in python within 24 hours</li>
+<li>scheduling program now starting to be used and has been under dev for more than 6
+months at the side</li>
 </ul>
+
 #######################
 -->
 
@@ -36,6 +41,78 @@ content
 <hr />
 #######################
 -->
+
+Sun May  8 02:44:51 EDT 2011
+title: How to choose a programming project || tags: programming fulfillment
+<p/>
+Choose to programming something that you will have to use either now or everyday.
+My example:
+<p/>
+<ul>
+
+</ul>
+<br />
+<hr />
+
+
+Sun May  8 01:58:17 EDT 2011
+title: Why I bought a Mac || tags: programming business tools
+<p/>
+  I already don't program for a living to justify buying a Mac nor am I someone who likes to
+spend a lot of money on gadgets. 
+<p/> 
+  I am passionate about programming and have been hacking with Linux for development 
+for a few years. Not really hardcore with linux but enough to be copying/buying and 
+trying out different versions of Linux and some free development tools in 
+Windows(minimal) too. Developing with C, then Java, to C++, then Python and finally to Ruby.
+<p/>
+  The computers I've owned through the years are all either dual boot Linux and windows or
+only Linux. I even introduced Linux for desktops and servers to the company I worked for
+when I used earn a living programming and doing a bit of sysadmin.
+<p/>
+  So why did I buy a Mac? 
+<p/>
+  It just makes sense. 
+<p/>
+  I've been in and out of programming for the past few years. Tinkering here and there.
+After getting out of the computer business and finding a more lucrative PT job in the US,
+I've started with a few small projects mostly to try out a new technology or scratch an
+itch, but never having even half finished any of those endeavors. It's become a hobby which
+I was starting to fall out of. I thought there just was no worthwhile project or pressing
+problem I needed to solve by writing a program.
+<p/>
+  Then in my "day job" we suddenly had a need for a scheduling system. I was excited to get
+started on a project to tackle this problem. To my dismay, even with a very concrete problem
+which I could  program a system to solve, I could only start it and work on the basic data
+model and helper classes but solving the problem was not yet in sight. 
+<p/>
+I kept running into
+configuration problems with the system, not liking my programming environment enough,
+some library dependency, having to learn another framework.... Too much procrastination.
+Too much time configuring, trying to make a better development environment, too little on
+solving the actual problem or getting the right work habits/skills and training myself. 
+<p/>
+  One day I was fed up of switching between computers I did not really like or had to configure
+and ordered a used Mac from Amazon. It was the best decision I did to start attaining my 
+goals. Now I have a development environment I like and I don't have to keep installing or
+configuring for things to work. No more sqlite or xml library missing to make ruby or a
+rubygem work. Vim works as I like it.
+<p/>
+  Due to my Mac experience for buying the right tools, I have even bought and read a couple 
+of books (programming recipes, advanced fun programming topics) and bought some peepcode 
+screencasts to learn how to do it right with less effort.
+<p/>
+  Now I am not awake until 4 am trying to compile the version of ruby I needed to run a
+gem - maybe once in a while on light weekends I go to bed at 2 after having done some work
+on my project, maybe learned something from peepcode or watched a movie with my wife on my
+Mac.
+<p/>
+  Hacking around Linux was fun until I needed something done. Now, I use part of my pet
+project every day to help me with making the schedule at work. I still use excel to format
+everything, but my program helps me make the right decisions which is what counts.
+<br />
+<hr />
+
 
 Sun May  1 08:52:43 EDT 2011
 title: Develop with BIGGER fonts, other tips from peepcode || tags: coding, programming
