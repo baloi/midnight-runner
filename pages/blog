@@ -36,6 +36,24 @@ content
 <hr />
 #######################
 -->
+Mon May  9 22:10:55 EDT 2011
+title: Full blown development || tags:
+<p/>
+Now I have a development setup... ~/dev_barn or development and testing
+applications and ~/barn.
+<p/>
+How does it work? 
+  * dev_barn db/development.sqlite3 is not versioned by git
+  * dev_barn is hosted in github as baloi/dev_sched
+  * work on dev_barn to add functionality and test or refactor
+  * use git commit/push to put changes to repository
+  * if chnages can be used in production 
+    - fossil commit from ~/dev_barn
+    - go to ~/barn
+      . fossil update
+<br />
+<hr />
+
 
 Sun May  8 02:44:51 EDT 2011
 title: How to choose a programming project || tags: programming fulfillment
