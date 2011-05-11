@@ -36,6 +36,24 @@ content
 <hr />
 #######################
 -->
+Tue May 10 22:47:09 EDT 2011
+title: Console with tabs work || tags: programming console
+<p/>
+This current dev environment works for me:
+<p/>One console with these tabs:
+<ul>
+  <li>~/dev_barn - for development which both has git(server saved and db 
+                   ignored for data privacy) and fossil to save locally</li>
+  <li>~/barn     - save all data only here at work use fossil update only when 
+                   entering data</li>
+  <li>just another tab anywhere maybe irc or lynx</li>
+</ul>
+<p/>
+Of course when I am entering data ~/barn does 'fossil commit' and ~/dev_barn 
+   does fossil update
+
+<br />
+<hr />
 
 Mon May  9 22:36:30 EDT 2011
 title: Good reviews || tags:
