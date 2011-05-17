@@ -20,6 +20,17 @@
 <hr />
 #######################
 -->
+
+<b> Splitting screen as your vim shell </b>
+From http://www.marksanborn.net/howto/adding-shell-to-vim-using-screen/
+<br />
+<pre>
+C-a S   # split screen 'S' is capital <br/>
+C-a <tab> :resize 25 <br/>
+C-<tab>   # moves cursor from one screen window to the other <br/>
+</pre>
+<hr />
+
 <b> using only one shell and vim </b>
 <br />
 <pre>
