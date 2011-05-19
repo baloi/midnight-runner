@@ -37,6 +37,20 @@ content
 #######################
 -->
 
+Wed May 18 21:43:20 EDT 2011
+title: To plunge or not to plunge? || tags: programming editors tools
+<p/>
+It is harder to make the plunge to emacs when I can have the split window via screen session, splitting
+it to a vim session and a console session on the bottom window.
+<p/>
+Using vim just became much more enjoyable...
+<p/>
+Thanks also to git-zsh, screen with split(C-a S), Ryan Tomayko's screenrc (simple display), and rvm's
+sandboxing via local .rvmrc... 
+<br />
+<hr />
+
+
 Tue May 17 00:01:14 EDT 2011
 title: To Emacs of Vim || tags: editors emacs vim
 <p/>
