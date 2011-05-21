@@ -21,6 +21,15 @@
 #######################
 -->
 
+<b> Using screen and vim </b>
+<br />
+<pre>
+  $ screen # start from the home directory to be able to load all paths
+  C-a S  # to split screen
+  C-  <tab> # to navigate up and down splits
+</pre>
+<hr />
+
 <b> Splitting screen as your vim shell </b>
 From http://www.marksanborn.net/howto/adding-shell-to-vim-using-screen/
 <br />
