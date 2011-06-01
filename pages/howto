@@ -54,7 +54,13 @@ git init <br/>
 git add . <br/>
 git commit -a <br/>
 heroku create --stack bamboo-mri-1.9.2 my-project<br/>
-git push heroku master
+git push heroku master<br/>
+in Gemfile add: <br/>
+group :production do <br/>
+  gem 'pg' <br/>
+end <br/>
+<br/>
+heroku rake db:migrate 
 </pre>
 <hr />
 
