@@ -20,6 +20,14 @@
 <hr />
 #######################
 -->
+<b> Add this to tests so test_helper will be found</b>
+<br />
+<pre>
+$: << 'test'
+</pre>
+<hr />
+
+
 <b> heroku console and db environment</b>
 <br />
 <pre>
