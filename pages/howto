@@ -20,6 +20,25 @@
 <hr />
 #######################
 -->
+<b> heroku console and db environment</b>
+<br />
+<pre>
+heroku console <br/>
+  ENV['DATABASE_URL']
+</pre>
+<hr />
+
+
+<b> heroku creation with bamboo stack </b>
+<br />
+<pre>
+git init <br/>
+git add . <br/>
+git commit -a <br/>
+heroku create --stack bamboo-mri-1.9.2 my-project<br/>
+git push heroku master
+</pre>
+<hr />
 
 <b> Using screen and vim </b>
 <br />
