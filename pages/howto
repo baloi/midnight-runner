@@ -20,6 +20,42 @@
 <hr />
 #######################
 -->
+<b> A new rails app </b>
+<br />
+<pre>
+$ rails new devshop
+$ cp ../BaloiGalia/Gemfile . 
+$ bundle update
+$ git init
+$ git add .
+$ heroku create --stack bamboo-mri-1.9.2 devshop
+$ git commit -a
+
+$ touch test/integration_test_helper.rb
+    require "test_helper"
+    require "capybara/rails"
+     
+    module ActionController
+      class IntegrationTest
+        include Capybara
+      end
+    end
+
+  Add this to integration tests
+    require 'integration_test_helper'
+
+$ ruby script/rails g model Product title:string description:text price:decimal
+$ rake db:migrate
+$ ruby script/rails g controller Product Admin
+$ ruby script/rails g integration_test product_creation
+  
+  Add gem 'turn' and gem 'term-ansicolor' in Gemfile
+
+
+</pre>
+<hr />
+
+
 <b> fix rake problem: undefined method `task' </b>
 <br />
 <pre>
