@@ -20,6 +20,21 @@
 <hr />
 #######################
 -->
+
+<b> Using scp </b>
+<br />
+<pre>
+scp something -P 443 name@71.6.200.19:/path_to_file/filename .
+</pre>
+<hr />
+
+<b> Mirror a website locally using wget </b>
+<br />
+<pre>
+$ wget -mk -w 20 http://www.example.com/
+</pre>
+<hr />
+
 <b> A new rails app </b>
 <br />
 <pre>
