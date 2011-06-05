@@ -21,6 +21,30 @@
 #######################
 -->
 
+<b> Creating index to rails app </b>
+<br />
+<pre>
+After:
+  $ rails g controller store index
+
+edit config/routes.rb
+
+MyApp::Application.routes.draw do
+  get "store/index"
+
+  resources :my_models
+  # You can have the root of your site routed with "root"
+  # just remember to delete public/index.html.
+  # root :to => "welcome#index"
+  # baloi start
+  root :to => "store#index"
+  # baloi end
+end
+
+Delete public/index.html
+</pre>
+<hr />
+
 <b> Using scp </b>
 <br />
 <pre>
