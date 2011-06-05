@@ -20,6 +20,13 @@
 <hr />
 #######################
 -->
+<b> Howto find coordinates of current location centered in Google Maps</b>
+<br />
+<pre>
+javascript:void(prompt('',gApplication.getMap().getCenter()));)
+</pre>
+<hr />
+
 
 <b> Creating index to rails app </b>
 <br />
