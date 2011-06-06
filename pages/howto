@@ -23,7 +23,7 @@
 <b> Howto find coordinates of current location centered in Google Maps</b>
 <br />
 <pre>
-javascript:void(prompt('',gApplication.getMap().getCenter()));)
+javascript:void(prompt('',gApplication.getMap().getCenter()));
 </pre>
 <hr />
 
