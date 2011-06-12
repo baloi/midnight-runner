@@ -28,14 +28,14 @@
 official testsuite of JQuery so this immediately impressed me. I then wrote in 
 my todo list: "try QUnit". It never got done. Maybe I did not see a simple 
 example on how to do this, or the test syntax not too similar to rspec or other
- ruby testing, or for whatever reason.
+ruby testing, or for whatever reason.
   
     Getting sidetracked and trying to solve a Datastore problem, browsing 
 through Railscasts I stumbled upon <a href="http://railscasts.com/episodes/261-testing-javascript-with-jasmine">a screencast on how to test javascript
- with jasmine</a>. I went along until about halfway of the 15 minute screencast
- and was already able to setup a simple rails project which had javascript 
+with jasmine</a>. I went along until about halfway of the 15 minute screencast
+and was already able to setup a simple rails project which had javascript 
 testing. Reasons: test syntax was similar to ruby rspec, easy to setup in rails
- or standalone, test results looked like something in the console and it just 
+or standalone, test results looked like something in the console and it just 
 worked. This will be my javascript tester for a while.
 
 
@@ -85,15 +85,15 @@ worked. This will be my javascript tester for a while.
 <br />
 <pre>
     I've been asked to figure out a way to create Javascript based UI and debug
- Javascript better. So I looked in the internet for a UI designer - debugger 
+Javascript better. So I looked in the internet for a UI designer - debugger 
 combo and took a quick look at stuff like GWT, UI designers like EXT Designer, 
 Javascript debuggers, IDE's, some application servers, etc. 
 
     To make the story shorter, I recommended using UI designing tools and 
 libraries for purely javascript and not tied to application environments, 
 languages other than Javascript or IDE's. Keep it simple and do not try to study
- another application server, IDE, framework if ever you are just going to extend,
- maintain an existing project - unless you really have to make like a separate 
+another application server, IDE, framework if ever you are just going to extend,
+maintain an existing project - unless you really have to make like a separate 
 system you can code from scratch.
 
     Then use Firebug, IE javascript debuggers, etc for debugging. I could not 
