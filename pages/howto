@@ -24,14 +24,27 @@
 <b> Testing Javascript - QUnit vs Jasmine</b>
 <br />
 <pre>
-    Looking for Javascript testing frameworks, I bumped into QUnit. It is the official testsuite of JQuery so this immediately impressed me. I then wrote in my todo list: "try QUnit". It never got done. Maybe I did not see a simple example on how to do this, or the test syntax not too similar to rspec or other ruby testing, or for whatever reason.
+    Looking for Javascript testing frameworks, I bumped into QUnit. It is the 
+official testsuite of JQuery so this immediately impressed me. I then wrote in 
+my todo list: "try QUnit". It never got done. Maybe I did not see a simple 
+example on how to do this, or the test syntax not too similar to rspec or other
+ ruby testing, or for whatever reason.
   
-    Getting sidetracked and trying to solve a Datastore problem, browsing through Railscasts I stumbled upon <a href="http://railscasts.com/episodes/261-testing-javascript-with-jasmine">a screencast on how to test javascript with jasmine</a>. I went along until about halfway of the 15 minute screencast and was already able to setup a simple rails project which had javascript testing. Reasons: test syntax was similar to ruby rspec, easy to setup in rails or standalone, test results looked like something in the console and it just worked. This will be my javascript tester for a while.
+    Getting sidetracked and trying to solve a Datastore problem, browsing 
+through Railscasts I stumbled upon <a href="http://railscasts.com/episodes/261-testing-javascript-with-jasmine">a screencast 
+on how to test javascript with jasmine</a>. I went along until about 
+halfway of the 15 minute screencast and was already able to setup a simple 
+rails project which had javascript testing. Reasons: test syntax was similar to
+ ruby rspec, easy to setup in rails or standalone, test results looked like 
+something in the console and it just worked. This will be my javascript tester 
+for a while.
 
     Steps:
+
 * Create new rails project
 
 * In Gemfile:
+
   gem 'jquery-rails'
   group :development, :test do
     # others gems...
