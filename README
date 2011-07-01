@@ -1,0 +1,5 @@
+This is my blog currently hosted somewhere in heroku. Uses a simple sinatra
+script and jadof.
+
+ruby version: 1.8.7
+gems: jadof, sinatra, haml

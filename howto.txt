@@ -1,3 +1,6 @@
 > howto start this:
   
   thin -R config.ru start
+
+> how to edit contents
+  add files and edit files in "pages" folder
