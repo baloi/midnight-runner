@@ -20,6 +20,15 @@
 <hr />
 #######################
 -->
+
+<b> Switching Java Versions in Mac OS X </b>
+<br />
+<pre>
+  Run this <a href="https://gist.github.com/1061556">script</a>
+</pre>
+<hr />
+
+
 <b> Remote Pair Programming with Vim, ssh and screen </b>
 <br />
 <pre>
