@@ -20,6 +20,13 @@
 <hr />
 #######################
 -->
+<b> Using rails console with DB rollback after session </b>
+<br />
+<pre>
+  $ ruby script/console --sandbox
+</pre>
+<hr />
+
 
 <b> Switching Java Versions in Mac OS X </b>
 <br />
