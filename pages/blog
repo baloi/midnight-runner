@@ -9,20 +9,6 @@
   }
   </style>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24466734-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
 </head>
 
 <body>
@@ -51,6 +37,14 @@ content
 <hr />
 #######################
 -->
+
+Sun Jul 10 13:55:06 EDT 2011
+title: Trying out google analytics || tags: metrics web
+<p/>
+This might help me develop the site better.
+<br />
+<hr />
+
 
 Sat Jul  2 17:07:31 EDT 2011
 title: Early Albany workout || tags: family fun albany running 
@@ -651,6 +645,21 @@ The free stuff.
 I still think that my wife uses Facebook too much, but she thinks I use the computer too much even though it is programming. We have to learn to accomodate each other though.
 <hr />
 A hot September day... Just cleaned the pool. Too dusty out. Julia is watering the plants. Need to work out more. Need to fix ankle. Need to balance budget... Blog entry 9/3/2010
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24466734-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
 </body>
