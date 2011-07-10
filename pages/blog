@@ -646,11 +646,10 @@ I still think that my wife uses Facebook too much, but she thinks I use the comp
 <hr />
 A hot September day... Just cleaned the pool. Too dusty out. Julia is watering the plants. Need to work out more. Need to fix ankle. Need to balance budget... Blog entry 9/3/2010
 
-
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24466734-1']);
+  _gaq.push(['_setAccount', 'UA-24466734-2']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -660,7 +659,6 @@ A hot September day... Just cleaned the pool. Too dusty out. Julia is watering t
   })();
 
 </script>
-
 
 </body>
 </html>
