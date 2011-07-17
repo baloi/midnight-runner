@@ -38,6 +38,36 @@ content
 <hr />
 #######################
 -->
+Sun Jul 17 10:57:52 EDT 2011
+title: What ever works || tags: productivity programming-fun
+<p/>
+  I've been in sort of a no coding time and tinkered with JRuby and Smalltalk to try
+to make progress on my scheduling system. Both forays into other languages just left
+me with more questions. 
+  Though I learned a little bit from both adventures: Trying out and skimming 
+through some JTable examples in "Swing Hacks" - helps me think about how to design
+the HTML table. It is more like a design patternish thing I was looking for and found
+in Swing Hacks on how to "marry" the table and data and how to handle events, etc.
+Java/Swing sort of has an elegant way of doing it.
+  Squeak Smalltalk's Morphic Designer really left my mouth watering as you can design
+the UI then code classes to interact with the UI (which now is also an class). No xml
+files, no ant build files or descriptors. It is all within Smalltalk! 
+  You can even "program by intention" in Smalltalk as what they say - you can just 
+write the intended behaviour of a still non-existent class and then code away! Just 
+add classes and methods that are needed as you go. Windows pop-up to give warning
+on what classes/methods/variables are missing and you keep adding them at "runtime"
+until no more errors or warnings are there. It could all be in one pass! Whoa! All
+of us should learn from this Smalltalk thing.
+  Now if I were just adept at Smalltalk.... TODO: Study Smalltalk more.
+  Going back to coding... I got back to code just because I had the confidence 
+provided by: GIT (branching to experiment with added features and merging if needed
+while keeping "stable" code untouched), RCOV (shows what code I need to test), and 
+good old terminal, screen and vim. iTerm in full screen mode with Monaco 22 font 
+just rocks. Screen with split windows (:resize 13-15). Vim makes it all readble and 
+fun with multiple tabls (remapped tab navigation with ,[hjkl]. It just works.
+<br />
+<hr />
+
 
 Sun Jul 10 13:55:06 EDT 2011
 title: Trying out google analytics || tags: metrics web
